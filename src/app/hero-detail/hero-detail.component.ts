@@ -7,7 +7,7 @@ import { Hero } from '../hero';
   styleUrls: ['./hero-detail.component.scss']
 })
 export class HeroDetailComponent implements OnInit {
-  @Input() hero: Hero;
+  @Input() hero!: Hero;
 
   constructor() { }
 
